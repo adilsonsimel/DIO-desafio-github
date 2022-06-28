@@ -1,0 +1,22 @@
+#Comandos Básicos – Terminal
+1. dir = Mostra todos os arquivos 
+2. cd (nome da pasta) = Leva para dentro da pasta escolhida
+3. cd .. = Leva de volta para origem (C:)
+4. cls = Limpa o terminal (cmd)
+5. tab = A tecla TAB completa a palavra sem você precisar escrever ela inteira
+6. mkdir (nome da pasta) = Cria uma pasta nova
+7. del (nome da pasta) = Deleta os arquivos que estão dentro da pasta escolhida
+8. rmdir (nome da pasta) /S /Q = Deleta a pasta inteira
+9. ls = trás todas a pastas do diretório
+10. pwd = Trás o caminho
+
+
+#Criando um Chave SSH (Para poder compartilhar seu código no git)
+Abrir o Git Bash> Escrever os seguintes comandos na ordem:
+
+Depois colocar os seguintes dados:
+cd c/Users/Vansil/.ssh/ (fiz um por um pq não estava conseguindo colocar tudo junto)
+Depois de entrar na pasta colocar 
+Dir (para mostrar os arquivos dentro)
+
+ 
