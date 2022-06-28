@@ -1,0 +1,28 @@
+
+#Criando um Chave SSH (Para poder compartilhar seu código no git)
+
+Abrir o Git Bash> Escrever os seguintes comandos na ordem:
+
+ssh-keygen -t ed25519 -C(e-mail cadastrado no GitHub)
+
+Depois colocar os seguintes dados:
+
+cd c/Users/(Nome da Pasta dentro do users)/.ssh/ (fiz um por um pq não estava conseguindo colocar tudo junto)
+
+Depois de entrar na pasta colocar 
+
+Dir (para mostrar os arquivos dentro)
+
+Colocar “cat id_ed25519” isso vai gerar duas linhas
+
+Você cópia as duas linhas geradas e cola lá no GitHub na onde vc adiciona a chave e define um nome para a chave
+
+Após isso, volte para o Git Bash
+
+Coloque eval $(ssh-agent -s) vai gerar um Agent pid 
+
+Depois “ssh-add id_ed25519
+
+Vai aparecer para colocar a senha
+
+E vai aparecer o e-mail que foi cadastrado

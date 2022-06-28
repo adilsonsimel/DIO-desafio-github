@@ -11,12 +11,5 @@
 10. pwd = Trás o caminho
 
 
-#Criando um Chave SSH (Para poder compartilhar seu código no git)
-Abrir o Git Bash> Escrever os seguintes comandos na ordem:
-
-Depois colocar os seguintes dados:
-cd c/Users/Vansil/.ssh/ (fiz um por um pq não estava conseguindo colocar tudo junto)
-Depois de entrar na pasta colocar 
-Dir (para mostrar os arquivos dentro)
 
  
